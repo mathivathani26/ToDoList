@@ -1,0 +1,20 @@
+*{box-sizing:border-box;font-family:Arial,sans-serif;}
+body{margin:0;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;
+     padding-top:60px;background:linear-gradient(135deg,#667eea,#764ba2);}
+.container{background:#fff;width:420px;padding:25px;border-radius:12px;
+           box-shadow:0 10px 30px rgba(0,0,0,.3);}
+h1{text-align:center;margin-top:0;color:#333;}
+.input-row{display:flex;gap:8px;margin-bottom:18px;}
+#taskInput{flex:1;padding:10px;font-size:16px;border:2px solid #ccc;border-radius:6px;}
+#taskInput:focus{outline:none;border-color:#667eea;}
+button{padding:10px 14px;border:none;border-radius:6px;cursor:pointer;color:#fff;
+       font-size:14px;transition:background .2s, transform .1s;}
+button:hover{transform:scale(1.06);}
+#addBtn{background:#667eea;} #addBtn:hover{background:#4c5fd0;}
+ul{list-style:none;padding:0;margin:0;}
+li{display:flex;align-items:center;justify-content:space-between;padding:10px;
+   border-bottom:1px solid #eee;}
+li span{flex:1;cursor:pointer;color:#333;}
+li.completed span{text-decoration:line-through;color:#999;}
+.done-btn{background:#2e7d32;margin-right:6px;} .done-btn:hover{background:#43a047;}
+.del-btn{background:#d32f2f;} .del-btn:hover{background:#ef5350;}
